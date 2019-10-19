@@ -1,0 +1,191 @@
+body {
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    margin: 0;
+    background: #f8f8f8 url(img/background.jpg);
+}
+
+h1 {
+    font-size: 100px;
+    margin-bottom: 25px;
+}
+
+.top {
+    margin: 20px auto;
+}
+
+.reroll {
+    margin-right: 5rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.category,
+.new,
+.time,
+.reroll:hover {
+    color: #4286f4;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    display: block;
+    text-align: center;
+}
+
+.string {
+    letter-spacing: 10px;
+    font-size: 40px;
+    margin: 50px 0 20px;
+    min-height: 60px;
+}
+
+.wrap-letters {
+    width: 50%;
+    float: left;
+    text-align: center;
+    min-height: 280px;
+}
+
+.gallows {
+    float: left;
+    width: 50%;
+    text-align: center;
+    min-height: 280px;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+}
+
+li {
+    width: 34px;
+    background-color: white;
+    display: inline-block;
+    margin: 4px;
+    font-size: 30px;
+    padding: 10px 10px 3px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+li:hover {
+    background-color: #666;
+    color: white;
+}
+
+.clicked,
+li.clicked:hover {
+    cursor: default;
+    color: black;
+    background-color: #ddd;
+}
+
+.reset {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.5em;
+}
+
+.tryAgain {
+    margin-top: 20px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+    width: 100px;
+}
+
+.tryAgain:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+.github {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: inline-block;
+}
+
+.github a {
+    background-color: #474747;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    width: 160px;
+    border-radius: 5px;
+    padding: 16px;
+    vertical-align: middle;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.github a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #727272;
+}
+
+.github i {
+    font-size: 40px;
+    margin-right: 10px;
+    line-height: 50px;
+    vertical-align: middle;
+    height: 50px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #474747;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    width: 160px;
+    border-radius: 5px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.dropdown-content {
+    display: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transform: translateY(0%);
+    transition-delay: 0s, 0s, 0.3s;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition: 0.3s;
+}
