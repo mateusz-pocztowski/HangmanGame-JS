@@ -2,7 +2,7 @@ window.onload = () => {
 
   let startTimer = new Date();
 
-  const proverbs = ['A friend in need is a friend indeed', 'Better safe than sorry', 'Great minds think alike', 'Haste makes waste', 'Look before you leap', 'Measure twice, cut one', 'Misery loves company', 'Better late than never', 'Mind your own business', 'Time is money'];
+  const proverbs = ['A friend in need is a friend indeed', 'Better safe than sorry', 'Great minds think alike', 'Haste makes waste', 'Look before you leap', 'Measure twice cut one', 'Misery loves company', 'Better late than never', 'Mind your own business', 'Time is money'];
 
   const actors = ['Robert De Niro', 'Morgan Freeman', 'Kevin Spacey', 'Clint Eastwood', 'Tom Hanks', 'Brad Pitt', 'Mel Gibson', 'Johnny Depp', 'Nicolas Cage', 'Jack Nicholson'];
 
