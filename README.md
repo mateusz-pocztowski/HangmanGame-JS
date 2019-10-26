@@ -1,6 +1,8 @@
 ## Hangman
 A classic word guessing game, written in JavaScript. You have to guess what the word is, one letter at a time. Guess wrong too many times, and you lose!
 
+Check out the demo! https://mateusz-pocztowski.github.io/HangmanGame-JS/
+
 ## How to play?
 ![hangman](https://user-images.githubusercontent.com/55945204/67313577-7b121380-f503-11e9-8905-477c32492972.gif)
 
