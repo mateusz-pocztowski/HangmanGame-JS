@@ -2,13 +2,13 @@ window.onload = () => {
 
   let startTimer = new Date();
 
-  const proverbs = ['A friend in need is a friend indeed', 'Better safe than sorry', 'Great minds think alike', 'Haste makes waste', 'Look before you leap', 'Measure twice cut one', 'Misery loves company', 'Better late than never', 'Mind your own business', 'Time is money'];
+  const proverbs = ['The squeaky wheel gets the grease', 'Better safe than sorry', 'Great minds think alike', 'Haste makes waste', 'Look before you leap', 'Measure twice cut one', 'Misery loves company', 'Better late than never', 'Mind your own business', 'Time is money', 'No man is an island', 'Fortune favors the bold', 'Hope for the best but prepare for the worst', 'A picture is worth a thousand words', 'Discretion is the greater part of valor'];
 
-  const actors = ['Robert De Niro', 'Morgan Freeman', 'Kevin Spacey', 'Clint Eastwood', 'Tom Hanks', 'Brad Pitt', 'Mel Gibson', 'Johnny Depp', 'Nicolas Cage', 'Jack Nicholson'];
+  const actors = ['Robert De Niro', 'Morgan Freeman', 'Kevin Spacey', 'Clint Eastwood', 'Tom Hanks', 'Brad Pitt', 'Mel Gibson', 'Johnny Depp', 'Nicolas Cage', 'Jack Nicholson', 'Chris Evans', 'Channing Tatum', 'George Clooney', 'Jared Leto', 'Ryan Reynolds'];
 
-  const actresses = ['Angelina Jolie', 'Emma Watson', 'Jodie Foster', 'Julia Roberts', 'Jennifer Lawrence', 'Cameron Diaz', 'Jennifer Aniston', 'Salma Hayek', 'Mila Kunis', 'Margot Robbie'];
+  const actresses = ['Angelina Jolie', 'Emma Watson', 'Jodie Foster', 'Julia Roberts', 'Jennifer Lawrence', 'Cameron Diaz', 'Jennifer Aniston', 'Salma Hayek', 'Mila Kunis', 'Margot Robbie', 'Scarlett Johansson', 'Emma Stone', 'Cara Delevingne', 'Melissa Mccarthy', 'Charlize Theron'];
 
-  const movies = ['Forrest Gump', 'Joker', 'El Camino A Breaking Bad Movie', 'The Shawshank Redemption', 'The Green Mile', 'Intouchables', 'Pulp fiction', 'Fight Club', 'Inception', 'Gran Torino'];
+  const movies = ['Forrest Gump', 'Joker', 'El Camino A Breaking Bad Movie', 'The Shawshank Redemption', 'The Green Mile', 'Intouchables', 'Pulp fiction', 'Fight Club', 'Inception', 'Gran Torino', 'Titanic', 'Seven Pounds', 'Inglourious Basterds', 'A Beautiful Mind', 'Cast Away', 'Django Unchained'];
 
   const categories = [proverbs, actors, actresses, movies];
   const category = Math.floor(Math.random() * categories.length);
