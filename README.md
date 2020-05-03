@@ -1,3 +1,6 @@
+## Info
+Well, this is my first project. It has some issues and inadequacies (no RWD, no BEM, no OOP), because I was just a beginner as I had been working on it :) I'm not going to fix these, but You are free to do that :)
+
 ## Hangman
 A classic word guessing game, written in JavaScript. You have to guess what the word is, one letter at a time. Guess wrong too many times, and you lose!
 
@@ -11,7 +14,3 @@ Gameplay is fairly simple: You're presented with a blank line. The number of bla
 ## License
 
 The MIT License (MIT)
-
-Copyright (c) 2019 Mateusz Pocztowski
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
